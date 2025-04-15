@@ -1,0 +1,12 @@
+<server description="microwebapp">
+
+    <featureManager>
+        <feature>servlet-6.0</feature>
+        <feature>pages-3.1</feature>
+    </featureManager>
+
+    <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
+
+    <webApplication contextRoot="/microwebapp" location="${server.config.dir}/apps/microwebapp.war" name="microwebapp"/>
+
+</server>
