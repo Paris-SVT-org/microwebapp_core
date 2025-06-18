@@ -9,4 +9,5 @@
 
     <webApplication contextRoot="/microwebapp" location="${server.config.dir}/apps/microwebapp.war" name="microwebapp"/>
 
+    
 </server>
